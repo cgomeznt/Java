@@ -32,7 +32,7 @@ y otro "BuenasMundo.java".::
 	}
 
 
-.::
+Asi seria el **build.xml**.::
 
 	<project name="mi proyecto" default="all">
 	  <target name="all" depends="build,pack" />
