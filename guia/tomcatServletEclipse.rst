@@ -111,7 +111,7 @@ Click derecho en el proyecto'HelloWorldServlet' y seleccionar menu 'Run As' --> 
 6. Crear una WAR y desplegarlo en Tomcat
 +++++++++++++++++++++++++++++++++++++++++++
 
-Dentro del projecto creamos el archivo "build.xml" que lo utilizara el ant, con este contenido:
+Dentro del projecto creamos el archivo "build.xml" que lo utilizara el ant, con este contenido::
 
 	<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 	<project name="Prueba"  basedir=".">
