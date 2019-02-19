@@ -114,7 +114,7 @@ Click derecho en el proyecto'HelloWorldServlet' y seleccionar menu 'Run As' --> 
 Dentro del projecto creamos el archivo "build.xml" que lo utilizara el ant, con este contenido::
 
 	<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-	<project name="Prueba"  basedir=".">
+	<project name="Prueba"  basedir="..">
 	<!-- Define the properties used by the build -->
 	<property name="app.name" value="helloWorld"/>
 	<property name="tcserver.home" value="/opt/apache-tomcat-9.0.12" />
